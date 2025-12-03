@@ -120,4 +120,16 @@ body {
 .footer a {
   color: #eee;
   text-decoration: underline;
+
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery-grid img {
+  width: calc(33.333% - 10px); 
+  height: auto;
 }
